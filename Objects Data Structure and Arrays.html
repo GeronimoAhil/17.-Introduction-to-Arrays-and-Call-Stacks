@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Object Data Structure and Arrays</title>
-    </head>
     <body>
-        <h2>Object Data Structure</h2>
-
-        <p id="demo"></p>
-        <p id="demo1"></p>
-        <p id="demo2"></p>
+        <h2>Objects Data Structure and Arrays</h2>
+        <h2>.join() and .pop()</h2>
+        <p>The .join() method joins array elements into a string and the .pop() method removes
+            the last element from the array.
+        </p>
+        <p id=".join"></p>
+        <p id=".pop1"></p>
+        <p id=".pop2"></p>
         <script>
-            var math = ["Problem Solve", "Using Logic", "Answering"];    
-            document.getElementById("demo").innerHTML = math.join(" * ")
-            document.getElementById("demo1").innerHTML = math;
-            math.pop()
-            document.getElementById("demo2").innerHTML = math;
+            var students = ["Alice", "Bob", "Charlie", "Daisy"];
+            document.getElementById(".join").innerHTML = students.join(" # ")
+            document.getElementById(".pop1").innerHTML = students;
+            students.pop()
+            document.getElementById(".pop2").innerHTML = students;
         </script>
     </body>
 </html>
